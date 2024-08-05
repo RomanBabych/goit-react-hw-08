@@ -1,0 +1,24 @@
+.form {
+  width: 300px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.error {
+  margin-top: 0;
+  font-size: 10px;
+  color: red;
+  position: relative;
+  top: -10px;
+}
+
+.username,
+.email,
+.password {
+  margin-bottom: 10px;
+}
+
+.regBtn {
+  width: 120px;
+}
