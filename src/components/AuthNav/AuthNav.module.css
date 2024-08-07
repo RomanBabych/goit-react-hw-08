@@ -1,14 +1,19 @@
-.nav {
+.authNav {
   display: flex;
   gap: 15px;
 }
 
 .link {
-  color: #000;
+  color: white;
   text-decoration: none;
 }
 
-.activeLink {
+.link:hover {
+  color: orangered;
+}
+
+.active {
+  color: orangered;
   font-weight: bold;
   text-decoration: underline;
 }

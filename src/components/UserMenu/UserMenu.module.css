@@ -1,3 +1,22 @@
+.userMenu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.userName {
+  font-size: 14px;
+  color: greenyellow;
+}
+
 .welcome {
-  color: orangered;
+  color: white;
+}
+
+.button {
+  padding: 5px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 2px;
 }

@@ -27,7 +27,18 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
+  border: 2px solid orangered;
   border-radius: 4px;
   box-sizing: border-box;
+  box-shadow: -2px 4px 9px 0px rgba(0, 0, 0, 0.75);
+}
+
+.deleteBtn {
+  padding: 5px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
 }
